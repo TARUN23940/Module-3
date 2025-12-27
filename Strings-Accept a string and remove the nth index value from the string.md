@@ -15,8 +15,15 @@ To write a Python program that accepts a string and removes the character at a s
 8. Print the final result.
 
 ## 💻 Program
-Add Code Here
-
+~~~
+def validate(a):
+    if len(a)==12 and a[3]==a[7]=='-':
+        print(a,"is valid")
+    else:
+        print(a,"is invalid")
+~~~
 ## Output
+<img width="757" height="205" alt="image" src="https://github.com/user-attachments/assets/453ddf3e-a335-484c-8a05-c8f3c56e8676" />
 
 ## Result
+Thus, the program has been successfully executed.
