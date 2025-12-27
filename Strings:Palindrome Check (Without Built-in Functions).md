@@ -13,8 +13,22 @@ To write a Python program to check whether the string `"google"` is a **palindro
 
 ## 🧾 Program
 
-Add code here
-
+~~~
+a=input()
+b=input()
+uniq=[]
+for i in a:
+    if i in b and i not in uniq:
+        uniq.append(i)
+if uniq:
+    for i in uniq:
+        print(i)
+    print("are the common characters")
+else:
+    print("There are no common characters")
+~~~
 ## Output
+<img width="767" height="269" alt="image" src="https://github.com/user-attachments/assets/6f20f4ea-f3e6-4787-a237-a79203cfe763" />
 
 ## Result
+Thus, the program has been successfully executed.
