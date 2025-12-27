@@ -14,7 +14,17 @@ To write a Python program that filters out and returns all elements from a list 
 5. Print the final filtered list.
 
 ## 🧾 Program
-Add code here
+~~~
+import re
+word = input()
+pt = r'[a-z]+_[a-z]+'
+if re.search(pt, word):
+    print("Found a match!")
+else:
+    print("Not matched!")
+~~~
 ## Output
+<img width="597" height="186" alt="image" src="https://github.com/user-attachments/assets/f48fea4d-268a-4c3c-8d5b-4d76119dc256" />
 
 ## Result
+Thus, the program has been successfully executed.
