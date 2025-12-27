@@ -10,8 +10,18 @@ To write a Python program that checks if the element `'n'` and the element `8` e
 4. Print the results.
 
 ## 🧾 Program
-Add code here
-
+~~~
+n=int(input())
+a=[]
+for i in range(n):
+    b=input()
+    a.append(b)
+print(tuple(a))
+print('Minimum:',min(a))
+print('Maximum:',max(a))
+~~~
 ## Output
+<img width="879" height="357" alt="image" src="https://github.com/user-attachments/assets/21af23c8-d674-4b0f-b73f-7b88c6a27607" />
 
 ## Result
+Thus, the program has been successfully executed.
